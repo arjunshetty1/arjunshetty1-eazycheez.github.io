@@ -1,11 +1,18 @@
 *{
     margin: 0;
     padding: 0%;
+    font-family: 'Poppins', sans-serif;
 }
 
 .flex{
     display:flex;
     align-items: center;
+}
+
+
+.container{
+    padding-left:100px;
+    padding-right: 100px;
 }
 
 body{
@@ -16,7 +23,7 @@ body{
 
 
 nav{
-    gap: 30rem;
+    gap: 50rem;
 }
 
 nav a{
