@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+.flex{
+    display:flex;
+    align-items: center;
+}
+
+body{
+    text-decoration: none;
+    list-style:none;
+}
+
+
+
+nav{
+    gap: 30rem;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a li{
+    list-style: none;
+}
+
+.ul-flex {
+    justify-content: space-between;
+    gap: 50px;
+    padding-block: 40px;
+}
