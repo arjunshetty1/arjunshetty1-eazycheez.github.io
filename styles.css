@@ -232,3 +232,27 @@ text-align: center;
 color: rgba(255, 255, 255, 0.72);
 background-color: #414141;
 }
+
+
+li:hover{
+    color:rgb(115, 111, 111)
+}
+
+.btn:hover{
+    background-color:rgb(74, 72, 72);
+}
+
+
+::selection{
+    color: orange;
+    /*background-color: black;*/
+   
+}
+
+body{
+    transition: 0.2s ease-in-out;
+}
+
+.tc{
+    
+}
