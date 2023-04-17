@@ -11,19 +11,14 @@
 
 
 .container{
-    padding-left:100px;
-    padding-right: 100px;
+    max-width:1029px;
+    padding-inline:110px;
 }
-
-body{
-    text-decoration: none;
-    list-style:none;
-}
-
 
 
 nav{
-    gap: 50rem;
+    gap: 45rem;
+    padding-bottom:2rem;
 }
 
 nav a{
@@ -32,10 +27,208 @@ nav a{
 
 nav a li{
     list-style: none;
+    color: black;
+    font-weight: 500;
 }
 
 .ul-flex {
     justify-content: space-between;
     gap: 50px;
-    padding-block: 40px;
+    padding-block: 39px;
+}
+
+
+.hero-text{
+    color: white;
+}
+
+
+.left-col{
+    background-color:#FFB83B;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    border-radius: 10px;
+
+  
+}
+
+.asset1{
+    width: 785px;
+    height: 655px;
+}
+
+/*header{
+    padding-bottom: 10rem;
+}*/
+
+
+.hero-text{
+    font-size: 72px;
+    font-weight: 500;
+    position: relative;
+    bottom:5rem;
+}
+
+
+.sexy{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    bottom: 4rem;
+}
+
+.app-icon{
+    position: relative;
+    bottom: 2rem;
+    gap: 30px;
+}
+
+
+.ixe{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn{
+    color: white;
+    background-color:rgb(15, 13, 13);
+    padding-block: 13px;
+    padding-inline: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+
+.logo{
+
+}
+
+header{
+    gap: 30px;
+}
+
+
+.logo{
+    padding-left: 110px;
+}
+
+.sub-header{
+   
+    text-align: center;
+    color: white;
+    background-color: #4F5CD1;
+    padding-top: 71px;
+    padding-bottom: 66px;
+    padding-left: 132px;
+    padding-right: 152px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 52px;
+
+}
+
+.fe{
+    flex-direction: column;
+    gap: 14px;
+}
+
+
+.fe-img{
+    width: 219px;
+height: 115px;
+position:relative;
+right: 40px;
+
+}
+
+.features{
+    padding-block: 90px;
+}
+
+
+.call-to-action{
+    flex-direction: column !important;
+    gap: 4.5rem !important;
+    align-items: flex-start !important;
+    background-color: #D9FDE5 !important;
+    padding-bottom: 2rem !important;
+    padding-top: 6rem;
+    padding-left: 6.8rem !important;
+    
+}
+
+.big{
+    position: relative;
+    top: 1.5rem;
+}
+
+.signoff{
+    padding-top: 88px;
+    padding-bottom:57px;
+    flex-direction: column;
+    align-items: center !important;
+    padding-inline: 234px;
+    gap: 1rem;
+}
+
+span{
+    text-align: center;
+    color:#00D615 ;
+}
+
+.note{
+    text-align: center;
+    
+}
+.left-column{
+flex-direction: column;
+text-align: left;
+align-items: flex-start;
+}
+
+
+.right-column{
+  justify-content: flex-end;
+  gap:10px;
+}
+
+
+footer{
+    gap:60rem;
+    background-color: black;
+    padding-top: 38px;
+    padding-bottom: 50px;
+    padding-inline: 100px;
+}
+
+.tagline{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 25px;
+    color: #818492;
+}
+
+.logo-footer{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.lol{
+    color: #FFB83B;
+}
+.sub-footer{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 25px;
+text-align: center;
+color: rgba(255, 255, 255, 0.72);
+background-color: #414141;
 }
