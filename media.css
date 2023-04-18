@@ -5,7 +5,7 @@
         display: block;
         position: relative;
         /*margin-right:-50rem;*/
-        right: 500px; 
+        right: 520px; 
         width: 28px;
 height: 28px;
     }
@@ -16,7 +16,10 @@ height: 28px;
 
    header{
     flex-direction: column-reverse;
+    position: relative;
    }
+
+
 
 
    .asset1{
@@ -49,7 +52,16 @@ header {
     right: 50rem;
 }
 
+header .left-col{
+    position: relative;
+    bottom: 16rem;
+    border-radius:0%;
 
+}
+
+.features{
+    flex-direction: column;
+}
 
 
 
