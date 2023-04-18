@@ -5,7 +5,7 @@
         display: block;
         position: relative;
         /*margin-right:-50rem;*/
-        right: 520px; 
+        right: 550px; 
         width: 28px;
 height: 28px;
     }
@@ -41,6 +41,7 @@ height: 28px;
    body {
     margin: 0;
     padding: 0;
+    
 }
 
 header {
@@ -49,7 +50,7 @@ header {
 }
 .right-column{
     position: relative;
-    right: 50rem;
+    right: 55rem;
 }
 
 header .left-col{
@@ -63,13 +64,52 @@ header .left-col{
     flex-direction: column;
 }
 
+.hero-text{
+    font-size:38px;
+    position: relative;
+    right: 15px;
+    text-align: start !important;
+}
+
+.sexy, .app-icon, .ixe{
+    position: relative;
+    right: 11px;
+}
 
 
+.left-col{
+    width: 100%;
+    height: 100%;
+}
 
+.signoff{
+    padding-top: 13%;
+    padding-bottom:14%;
+    flex-direction: column;
+    align-items: center !important;
+    padding-inline: 34%;
+    gap: 1rem;
+}
 
+.sub-header{
+   
+    text-align: start;
+    color: white;
+    background-color: #4F5CD1;
 
+    width: 100%;
 
+  
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 52px;
+    overflow: hidden;
 
+}
+
+html{
+  
 
 
 
