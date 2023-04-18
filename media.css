@@ -1,0 +1,67 @@
+@media screen and (max-width: 479px){
+
+
+    .nav-toggle{
+        display: block;
+        position: relative;
+        /*margin-right:-50rem;*/
+        right: 500px; 
+        width: 28px;
+height: 28px;
+    }
+
+   .ul-flex{
+    display: none;
+   }
+
+   header{
+    flex-direction: column-reverse;
+   }
+
+
+   .asset1{
+   width: 430px;
+   position: relative;
+   bottom: 123px;
+   overflow: hidden;
+   }
+
+    .logo {
+    position: relative;
+    width:250px;
+    left: 20px;
+    padding-top: 20px;
+   }
+
+
+
+   body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+.right-column{
+    position: relative;
+    right: 50rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

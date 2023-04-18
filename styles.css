@@ -3,6 +3,7 @@
     padding: 0%;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
+
 }
 
 .flex{
@@ -60,9 +61,6 @@ nav a li{
     height: 655px;
 }
 
-/*header{
-    padding-bottom: 10rem;
-}*/
 
 
 .hero-text{
@@ -104,9 +102,6 @@ nav a li{
 }
 
 
-.logo{
-
-}
 
 header{
     gap: 30px;
@@ -114,7 +109,8 @@ header{
 
 
 .logo{
-    padding-left: 110px;
+    position: relative;
+    left: 110px;
 }
 
 .sub-header{
@@ -264,4 +260,8 @@ body{
     font-size: 20px;
     font-weight: normal;
     color: grey;
+}
+
+.nav-toggle{
+    display: none;
 }
