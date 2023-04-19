@@ -79,8 +79,8 @@ header {
 
 
 .left-col{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 
 .signoff{
@@ -101,6 +101,10 @@ header {
     text-align: start;
     color: white;
     background-color: #4F5CD1;
+
+    width: 100%;
+
+  
     font-style: normal;
     font-weight: 500;
     font-size: 35px;
