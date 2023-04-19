@@ -78,8 +78,8 @@ header .left-col{
 
 
 .left-col{
-    width: 100%;
-    height: 100%;
+    width: 100vw: 
+    height: 100vh; 
 }
 
 .signoff{
@@ -97,7 +97,7 @@ header .left-col{
     color: white;
     background-color: #4F5CD1;
 
-    width: 100%;
+    width: 100vw;
 
   
     font-style: normal;
