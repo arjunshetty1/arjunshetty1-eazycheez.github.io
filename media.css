@@ -4,8 +4,8 @@
     .nav-toggle{
         display: block;
         position: relative;
-        /*margin-right:-50rem;*/
-        right: 550px; 
+        right:170%; 
+        
         width: 28px;
 height: 28px;
     }
@@ -23,10 +23,10 @@ height: 28px;
 
 
    .asset1{
-   width: 430px;
+   width: 100vw;
    position: relative;
    bottom: 123px;
-   overflow: hidden;
+   overflow-x: hidden;
    }
 
     .logo {
@@ -53,7 +53,8 @@ header {
     right: 55rem;
 }
 
-header .left-col{
+ .left-col{
+    box-sizing: border-box;
     position: relative;
     bottom: 16rem;
     border-radius:0%;
@@ -78,8 +79,8 @@ header .left-col{
 
 
 .left-col{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 
 .signoff{
@@ -91,29 +92,18 @@ header .left-col{
     gap: 1rem;
 }
 
-.sub-header{
+.sub-header {
+    box-sizing: border-box;
+    width: 100vw;
+    padding: 20px;
    
+    margin: 0;
     text-align: start;
     color: white;
     background-color: #4F5CD1;
-
-    width: 100%;
-
-  
     font-style: normal;
     font-weight: 500;
     font-size: 35px;
     line-height: 52px;
-    overflow: hidden;
-
 }
-
-html{
-  
-
-
-
-
-
-
 }
