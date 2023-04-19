@@ -1,14 +1,16 @@
 @media screen and (max-width: 479px){
 
-
-    .nav-toggle{
+ html{
+    overflow-x: hidden;
+ }
+    /*.nav-toggle{
         display: block;
         position: relative;
-        right:170%; 
+        right:80%; 
         
         width: 28px;
 height: 28px;
-    }
+    }*/
 
    .ul-flex{
     display: none;
@@ -110,4 +112,16 @@ header {
     font-size: 35px;
     line-height: 52px;
 }
+
+
+.btn{
+    color: white;
+    background-color:rgb(15, 13, 13);
+    padding-block: 8px;
+    padding-inline: 3px;
+    font-size: 9px;
+    border-radius: 6px;
+}
+
+
 }
