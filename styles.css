@@ -15,12 +15,9 @@ body {
 }
 
 
-
-
-
 nav{
     max-width: 100%;
-    gap:55%;
+    gap:65%;
     padding-bottom:2rem;
     position:relative;
     overflow-x:hidden;
@@ -39,7 +36,7 @@ nav a li{
 .ul-flex {
    
     justify-content: space-between;
-    gap: 50px;
+    gap: 40px;
     padding-block: 39px;
 }
 
@@ -51,13 +48,13 @@ nav a li{
    outline-style:inset;
     box-sizing: border-box;
     background-color:#FFB83B;
-    width: 100%;
+    width: 65rem;
     
-    /*height: 180%;*/
+    padding-bottom: 5rem !important;
     position: relative;
     padding-top: 30px;
-    padding-bottom: 40px;
     padding-left: 50px;
+    padding-right: 13px;
     border-radius: 40px;
     margin-bottom: 3rem;
     margin-left: 2rem;
@@ -75,12 +72,12 @@ nav a li{
 
 
 .hero-text{
-    font-size:250%;
+    font-size:3.5rem;
     font-weight:500;
     bottom: 50%;
-   color: white;
-   position:static;
-   overflow: hidden;
+    color: white;
+  
+    
 
     
 }
@@ -88,37 +85,30 @@ nav a li{
 
 .sexy{
     color: white;
-    font-size: 18px;
+    font-size: 1.7rem;
     font-weight: 500;
-    position: absolute;
-    top: 54%;
-    overflow: hidden;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    top:43%;
+    
 }
 
 .app-icon{
-   
-    bottom: 2rem;
+  
+bottom:12rem;
     gap: 3%;
 }
 
 
-.ixe{
-    color: white;
-    font-size: 18px;
-    font-weight: 500;
-    position: absolute;
-    bottom: 10%;
-}
 
 .btn{
     color: white;
     background-color:rgb(15, 13, 13);
-    padding-block:1px
-    font-size: 12px;
+    font-size: 72%;
     border-radius: 10px;
-    width: 8vw;
-    height: 6vh;
-    margin-top: 17%;
+    position: relative;
+    padding:13px;
+
 }
 
 
@@ -142,8 +132,14 @@ header{
     padding-top:71px;
     padding-bottom:66px;
     font-weight:500;
-    font-size:35px;
+    position: relative;
 
+}
+
+.sub-header p{
+    font-size: 33px;
+    padding-inline: 15px;
+    
 }
 
 .fe{
@@ -191,16 +187,6 @@ right: 40px;
 
 .call-to-action p{
     position: absolute;
-}
-
-.call-to-action .btn{
-    color: white;
-    background-color:rgb(15, 13, 13);
-    padding-block: 13px;
-    padding-inline: 10px;
-    position: absolute;
-    font-size: 13px;
-    border-radius: 50px;
 }
 
 .big{
