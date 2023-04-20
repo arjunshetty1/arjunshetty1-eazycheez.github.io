@@ -16,11 +16,12 @@ body {
 
 
 nav{
-    max-width: 100%;
+    width: 100%;
     gap:65%;
     padding-bottom:2rem;
     position:relative;
     overflow-x:hidden;
+    flex-wrap: wrap;
 }
 
 nav a{
@@ -102,6 +103,13 @@ bottom:12rem;
 }
 
 
+/*.call-to-action .app-icon i{
+  
+        width: 6rem;
+        gap: 3%;
+    }*/
+
+  
 
 .btn{
     color: white;
@@ -157,13 +165,10 @@ right: 40px;
 }
 
 .features{
-    padding-block: 90px;
-    
+    padding-block: 100px;
     justify-content:space-evenly;
     overflow-x: hidden;
-    
-
-    
+    flex-wrap: wrap;
 }
 
 .features .text{
