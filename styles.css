@@ -18,6 +18,7 @@ nav{
     width: 100%;
     gap:65%;
     padding-bottom:2rem;
+    flex-wrap: wrap;
 }
 
 nav a{
