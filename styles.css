@@ -15,14 +15,15 @@ body {
 }
 
 
-
+Eazy Cheez - now available across Mangalore! Shop for 
 
 
 nav{
     max-width: 100%;
-    gap: 55%;
+    gap:55%;
     padding-bottom:2rem;
-    position: relative;
+    position:relative;
+    overflow-x:hidden;
 }
 
 nav a{
@@ -126,7 +127,7 @@ header{
 .sub-header{
 
     text-align: center;
-    width: 100vw;
+    width: 100%;
     color: white;
     background-color: #4F5CD1;
     padding-top:71px;
@@ -154,6 +155,8 @@ right: 40px;
     padding-block: 90px;
     gap: 100px;
     width: 100%;
+    overflow-x: hidden;
+    position: relative;
     
 }
 
