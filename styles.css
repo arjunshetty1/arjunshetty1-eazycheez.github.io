@@ -25,12 +25,14 @@ nav{
 
 nav a{
     text-decoration: none;
+   
 }
 
 nav a li{
     list-style: none;
     color: black;
     font-weight: 500;
+
 }
 
 .ul-flex {
@@ -104,14 +106,12 @@ bottom:12rem;
 .btn{
     color: white;
     background-color:rgb(15, 13, 13);
-    font-size: 72%;
+    font-size: 0.9em;
     border-radius: 10px;
     position: relative;
     padding:13px;
 
 }
-
-
 
 header{
     gap: 2%;
@@ -138,7 +138,7 @@ header{
 
 .sub-header p{
     font-size: 33px;
-    padding-inline: 15px;
+    padding-inline: 5px;
     
 }
 
@@ -158,41 +158,55 @@ right: 40px;
 
 .features{
     padding-block: 90px;
-    gap: 100px;
-    width: 100%;
+    
+    justify-content:space-evenly;
     overflow-x: hidden;
-    position: relative;
+    
+
     
 }
 
-.feature-2 h2{
+.features .text{
+    font-size: 16px;
     align-self: flex-start;
+    padding-left: 21px;
 }
+
+.features .feature-p{
+    font-size: 18px;
+    padding-inline: 20px;
+    width: 271px;
+    height: 135px;
+}
+
+
+
+
 
 
 
 .call-to-action{
     flex-direction: column ;
-    gap: 4.5rem ;
+    gap: 3rem ;
     width: 100%;
-    position: relative;
+    position:relative;
     align-items: flex-start ;
     background-color: #D9FDE5 ;
-    padding-bottom: 2rem !;
-    padding-top: 6rem;
+    
+   padding-block: 2rem !important;
     padding-left: 6.8rem ;
     box-sizing: border-box;
     
 }
 
 .call-to-action p{
-    position: absolute;
+  font-size: 20px;
 }
 
 .big{
    
     top: 1.5rem;
-    position: absolute;
+    
 }
 
 .signoff{
@@ -220,6 +234,8 @@ align-items: flex-start;
 }
 
 
+
+
 .right-column{
   justify-content: flex-end;
   gap:10px;
@@ -240,8 +256,7 @@ footer{
 .tagline{
     font-style: normal;
     font-weight: 400;
-    font-size: 10px;
-    line-height: 25px;
+    font-size: 0.6em;
     color: #818492;
 }
 
