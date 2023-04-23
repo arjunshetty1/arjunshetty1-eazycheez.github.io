@@ -256,11 +256,14 @@ footer{
     font-size: 0.6em;
     color: #818492;
     position:absolute;
+    top: 4.5rem;
 }
 
 .logo-footer{
     text-decoration: none;
     color: white;
+    position: absolute;
+    bottom:38px;
     
 }
 
