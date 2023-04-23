@@ -250,10 +250,12 @@ footer{
 }
 
 .tagline{
+
     font-style: normal;
     font-weight: 400;
     font-size: 0.6em;
     color: #818492;
+    position:absolute;
 }
 
 .logo-footer{
