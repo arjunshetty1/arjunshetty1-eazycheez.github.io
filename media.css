@@ -1,0 +1,56 @@
+@media screen and (max-width: 700px){
+
+
+.ul-flex{
+    display:none;
+}
+
+.nav-toggle{
+    display: block;
+
+}
+
+/*nav .nav-toggle{
+  align-self:flex-end;
+}*/
+
+
+nav{
+  gap: 0;  
+  flex-direction:row-reverse ;
+}
+
+nav .nav-toggle{
+    padding-top:1.3rem;
+}
+
+
+.daddy{
+    flex-direction: row;
+}
+
+
+header{
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
