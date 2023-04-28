@@ -320,11 +320,13 @@ body{
 
 
 @media screen and (max-width:737px) {
-    
-   
-    .ul-flex{
-     display: none;
+    *{
+        flex-wrap: wrap;
     }
+   
+    /*.ul-flex{
+     display:none;
+    }*/
  
     header{
      flex-direction:column-reverse;
