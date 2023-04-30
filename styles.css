@@ -93,10 +93,13 @@ nav a li{
     
 }
 
+
+
 .app-icon{
   
 bottom:12rem;
     gap: 3%;
+    
 }
 
 
@@ -124,8 +127,8 @@ header{
 
 
 .logo{
-   position: absolute;
     left: 90px;
+    position: absolute;
 }
 
 .sub-header{
@@ -310,4 +313,19 @@ body{
 
 .nav-toggle{
     display: none;
+}
+
+.hmm{
+    width: 40%;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+      flex-wrap:wrap;
+    }
+
+    nav ul a{
+        flex-wrap: wrap;
+    }
+
 }
