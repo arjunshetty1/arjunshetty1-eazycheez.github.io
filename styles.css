@@ -329,3 +329,9 @@ body{
     }
 
 }
+
+.damn1 a{
+    text-decoration: none;
+    font-style: normal;
+    color: white;
+}
